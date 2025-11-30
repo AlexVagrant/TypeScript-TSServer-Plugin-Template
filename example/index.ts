@@ -2,4 +2,18 @@
 
 const anExampleVariable = "Hello World"
 console.log(anExampleVariable)
-a
+
+
+function myFunction() {
+  console.log("This is a function")
+}
+console.log(myFunction)
+
+type User = {
+  name: string,
+  age: number
+}
+
+const user:User = {
+//If I press "ctrl+space" I am expecting to get the suggestions. Which is not happening.
+}
